@@ -1,0 +1,15 @@
+---
+layout: layouts/base.njk
+---
+
+
+<h2> {{ title }}  </h2>
+<p class="date-in-postnjk"> {{ date }}  </p>
+<p class="desc"> {{ description }} </p>
+<img src="{{ featuredImage | url }}" alt="this is the alt tag because the img link is fucked">
+<div class="test">
+<p> {{ content | safe }} </p>
+</div>
+
+
+
