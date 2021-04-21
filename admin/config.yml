@@ -18,6 +18,13 @@ collections:
       }
     - {label: "Title", name: "title", widget: "string"}
     - {label: "Description", name: "description", widget: "string"}
-    - {label: "Date", name: "date", widget: "date", default: ""}
+    - {
+       label: "Date",
+       name: "date",
+       widget: "datetime",
+       timeFormat: false,
+       dateFormat: "YYYY-MM-DD",
+       format: "LLL",
+      }
     - {label: "Body", name: "body", widget: "markdown"}
     - {label: "Featured Image", name: "featuredImage", widget: "image"}
