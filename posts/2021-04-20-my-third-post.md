@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: My third Post
 description: This is actually posted directy from Netlfiy CMS
-date: 20-04-2021
+date: 2021-04-20
 featuredImage: /images/uploads/nici-fergus.jpg
 ---
 

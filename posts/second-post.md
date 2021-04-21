@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: My Second Post
 description: The second post on my extremely underwhelming blog
-date: 19-04-2021
+date: 2021-04-19
 featuredImage: "/images/uploads/fergus.jpg"
 ---
 
