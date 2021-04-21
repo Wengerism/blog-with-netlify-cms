@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: My First Post
 description: The first post on my extremely underwhelming blog
-date: 2021-04-17
+date: 17-04-2021
 featuredImage: "/images/uploads/fergus.jpg"
 ---
 
