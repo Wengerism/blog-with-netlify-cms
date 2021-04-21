@@ -26,7 +26,6 @@ collections:
        date_format: "DD.MM.YYYY",
        time_format: "HH:mm",
        format: "LLL",
-       picker_utc: false,
       }
     - {label: "Body", name: "body", widget: "markdown"}
     - {label: "Featured Image", name: "featuredImage", widget: "image"}
