@@ -22,7 +22,8 @@ collections:
        label: "Date",
        name: "date",
        widget: "datetime",
-       date_format: true,
+       date_format: "DD.MM.YYYY",
+       time_format: false,
        picker_utc: false,
        default: "",
       }
