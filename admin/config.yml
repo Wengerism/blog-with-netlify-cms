@@ -22,11 +22,11 @@ collections:
        label: "Date",
        name: "date",
        widget: "datetime",
-       date_format: "DD.MM.YYYY",
+       default: "",
+       date_format: false,
        time_format: false,
        format: "LLL",
        picker_utc: false,
-       default: "",
       }
     - {label: "Post Content", name: "body", widget: "markdown"}
     - {
