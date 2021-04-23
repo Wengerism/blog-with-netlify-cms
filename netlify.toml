@@ -1,7 +1,7 @@
 # example netlify.toml
 [build]
-# command = "npx eleventy"
-command = "DEBUG=* npx eleventy"
+command = "npx eleventy"
+# command = "DEBUG=* npx eleventy"
 functions = "netlify/functions"
 publish = "_site"
 
