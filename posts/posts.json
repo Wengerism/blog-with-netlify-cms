@@ -1,3 +1,6 @@
 {
-  "tags": "posts"
+  "layout": "posts",
+  "tags": [
+      "post"
+  ]
 }
