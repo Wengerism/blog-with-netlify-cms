@@ -24,7 +24,6 @@ collections:
        widget: "datetime",
        default: "",
        date_format: "DD.MM.YYYY",
-       time_format: false,
        format: "LLL",
        picker_utc: false,
       }
