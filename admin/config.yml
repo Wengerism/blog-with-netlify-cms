@@ -24,6 +24,7 @@ collections:
        widget: "datetime",
        date_format: true,
        picker_utc: false,
+       default: "",
       }
     - {label: "Post Content", name: "body", widget: "markdown"}
     - {
