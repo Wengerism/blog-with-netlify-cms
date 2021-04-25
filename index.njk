@@ -9,5 +9,14 @@ Although it probably looked substantially better than this after day one, to be 
 
 <p>(And this line and the above 2 sentences are from index.njk)</p>
 
+<ul>
+{% for article in news.articles %}
+  <li class="newsarticle">
+  <a href="{{ article.url }}">{{ article.title }}</a>
+  <span>{{ article.author }} {{ article.source.name }} - <time>{{ article.publishedAt }}</time></span>
+  </li>
+{% endfor %}
+</ul>
+
 {% set postslist = collections.posts %}
 {% include "postslist.njk" %}
