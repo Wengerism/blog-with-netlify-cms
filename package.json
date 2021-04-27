@@ -4,7 +4,8 @@
   "description": "Eleventy blog deployed to Netlfiy with NetlifyCMS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx eleventy",
+    "start": "eleventy --serve"
   },
   "keywords": [],
   "author": "",

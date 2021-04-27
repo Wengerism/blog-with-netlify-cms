@@ -2,7 +2,7 @@
 [build]
 command = "npx eleventy"
 # command = "DEBUG=* npx eleventy"
-functions = "netlify/functions"
+functions = "_functions"
 publish = "_site"
 
 ## Uncomment to use this redirect for Single Page Applications like create-react-app.

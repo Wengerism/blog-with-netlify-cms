@@ -9,14 +9,14 @@ Although it probably looked substantially better than this after day one, to be 
 
 <p>(And this line and the above 2 sentences are from index.njk)</p>
 
-<ul>
-{% for article in news.articles %}
-  <li class="newsarticle">
-  <a href="{{ article.url }}">{{ article.title }}</a>
-  <span>{{ article.author }} {{ article.source.name }} - <time>{{ article.publishedAt }}</time></span>
-  </li>
+<h4>Click on a country code below for your preferred daily nonsense</h4>
+
+{% for newsitem in news %}
+<a href="/{{ newsitem.country }}">{{ newsitem.country }}</a>
 {% endfor %}
-</ul>
+
+<p>Main issue with the above is that given it represents an array of country codes taken from the news api and listed in countries.json, I'm unsure of how to better present it rather than just as country codes.  Where's the ability to name the link something else for the sake of sexiness?</p>
+
 
 {% set postslist = collections.posts %}
 {% include "postslist.njk" %}

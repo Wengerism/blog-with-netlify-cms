@@ -3,10 +3,12 @@ layout: layouts/base.njk
 ---
 
 
+<a href="/">home</a>
+
 <h2> {{ title }}  </h2>
 <p class="date-in-postnjk"> {{ date }}  </p>
 <p class="desc"> {{ description }} </p>
-<img src="{{ featuredImage | url }}" alt="this is the alt tag because the img link is fucked">
+<img src="{{ featuredImage | url }}" alt="this is the alt tag because the img link is broken?">
 <div class="test">
 <p> {{ content | safe }} </p>
 </div>

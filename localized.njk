@@ -1,0 +1,31 @@
+---
+title: Daily Nonsense
+layout: layouts/base.njk
+pagination:
+  data: news
+  size: 1
+  alias: news
+permalink: /{{ news.country}}/index.html
+---
+
+<a href="/">home</a>
+
+<h2>Weather near you</h2>
+<p id ="city"></p>
+<p id ="temp"></p>
+
+<h2>{{ title }}</h2>
+
+<ul>
+{% for article in news.articles %}
+  <li class="newsarticle">
+  <a href="{{ article.url }}">{{ article.title }}</a>
+  <span>{{ article.source.name }} - <time>{{ article.publishedAt }}</time></span>
+  </li>
+{% endfor %}
+</ul>
+
+{% set postslist = collections.posts %}
+{% include "postslist.njk" %}
+
+<script src="/js/weather.js"></script>
